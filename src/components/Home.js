@@ -108,7 +108,7 @@ const Home = () => {
   // Search Sunglasses
   function searchSunglasses(name) {
     setSearchedSunglasses(allSunglasses.filter((sunglasses) => sunglasses.name.toLowerCase().includes(name.toLowerCase())));
-    if (name == '') {
+    if (name === '') {
       setHasSearch(false);
     } else {
       setHasSearch(true);

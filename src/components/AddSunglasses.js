@@ -100,7 +100,7 @@ const AddSunglasses = ({ onAdd }) => {
 
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Boja</Form.Label>
-        <Form.Control type="number" value={color} onChange={(e) => setColor(e.target.value)} placeholder="Unesite boju naočara" />
+        <Form.Control type="text" value={color} onChange={(e) => setColor(e.target.value)} placeholder="Unesite boju naočara" />
       </Form.Group>
 
       <Form.Group controlId="formBasicEmail">
@@ -110,7 +110,7 @@ const AddSunglasses = ({ onAdd }) => {
 
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Materijal</Form.Label>
-        <Form.Control type="number" value={matherial} onChange={(e) => setMatherial(e.target.value)} placeholder="Unesite materijal naočara" />
+        <Form.Control type="text" value={matherial} onChange={(e) => setMatherial(e.target.value)} placeholder="Unesite materijal naočara" />
       </Form.Group>
 
       <Form.Group controlId="formBasicEmail">
@@ -125,7 +125,7 @@ const AddSunglasses = ({ onAdd }) => {
 
       <Form.Group controlId="formBasicEmail">
         <Form.Label>Cena</Form.Label>
-        <Form.Control type="text" p value={price} onChange={(e) => setPrice(e.target.value)} placeholder="Unesite cenu naočara" />
+        <Form.Control type="number" p value={price} onChange={(e) => setPrice(e.target.value)} placeholder="Unesite cenu naočara" />
       </Form.Group>
 
       <Form.Group controlId="exampleForm.ControlTextarea1">
